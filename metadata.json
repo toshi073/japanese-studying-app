@@ -1,0 +1,8 @@
+{
+  "name": "LingoLens JP",
+  "description": "Cross-platform high-level Japanese learning app for Spanish speakers. Supports real-world OCR, writing correction, and real-time voice conversation on iOS and Android.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
