@@ -7,7 +7,7 @@ export default defineConfig(({ server: }) => {
     return {
       server: {
         port: 3000,
-        allowedHosts: ['japanese-studying-app.onrender.com'],
+        host: '0.0.0.0.',
       },
       plugins: [react()],
       define: {
