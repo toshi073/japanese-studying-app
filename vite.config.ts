@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     return {
       server: {
         port: 3000,
-        host: true
+        host: true,
         allowedHosts: ['japanese-studying-app.onrender.com'],
       },
       plugins: [react()],
